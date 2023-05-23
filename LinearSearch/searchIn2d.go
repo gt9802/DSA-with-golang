@@ -1,17 +1,14 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "math"
 
-func main() {
-	arr := [][]int{{1, 2, 3}, {4, 50, 6}, {7, 8}}
-	target := 4
+// func main() {
+// 	arr := [][]int{{1, 2, 3}, {4, 50, 6}, {7, 8}}
+// 	target := 4
 
-	fmt.Println(search(arr, target))
-	fmt.Println("maximum value in 2d array is:", maxIn2d(arr))
-}
+// 	fmt.Println(search(arr, target))
+// 	fmt.Println("maximum value in 2d array is:", maxIn2d(arr))
+// }
 
 func search(arr [][]int, target int) []int {
 	for i := 0; i < len(arr); i++ {
