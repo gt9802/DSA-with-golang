@@ -1,13 +1,12 @@
+// greates number smaller than or equal to target
 package main
 
-import "fmt"
+// func main() {
+// 	arr := []int{2, 3, 5, 9, 14, 16, 18}
 
-func main() {
-	arr := []int{2, 3, 5, 9, 14, 16, 18}
-
-	target := 15
-	fmt.Println(ceilingOfNumber(arr, target))
-}
+// 	target := 15
+// 	fmt.Println(ceilingOfNumber(arr, target))
+// }
 
 func ceilingOfNumber(arr []int, target int) int {
 	start := 0
