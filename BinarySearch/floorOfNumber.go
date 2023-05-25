@@ -1,4 +1,4 @@
-// smallest number less than or equal to target
+// greatest number <=target
 package main
 
 import "fmt"
