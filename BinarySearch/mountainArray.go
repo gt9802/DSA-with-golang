@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func main() {
-	arr := []int{0, 10, 5, 2}
+	arr := []int{0, 2, 1, 0}
 	fmt.Println(peakIndex(arr))
 }
 func peakIndex(arr []int) int {
@@ -23,5 +23,5 @@ func peakIndex(arr []int) int {
 			start = mid + 1
 		}
 	}
-	return arr[start]
+	return start
 }
